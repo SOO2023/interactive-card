@@ -185,10 +185,11 @@ button:hover{
 @media (min-width:1440px){
   body{
     background-image: url('images/bg-main-desktop.png');
-    background-size: 500px 100%;
+    background-size: 40vw 100%;
   }
   .container{
     flex-direction: row;
+    max-width:1150px;
     width: 75vw;
     height:100vh;
     padding:0;
